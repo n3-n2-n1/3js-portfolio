@@ -23,6 +23,11 @@ import {
   jobit,
   tripguide,
   threejs,
+  lian,
+  allow,
+  infinix,
+  infinixw,
+  lianw
 } from "../assets";
 
 export const navLinks = [
@@ -118,8 +123,8 @@ const experiences = [
   {
     title: "Lian Productions Ghost Production Site",
     company_name: "Lian Productions",
-    icon: starbucks,
-    iconBg: "#383E56",
+    icon: lian,
+    iconBg: "black",
     date: "August 2019 - Present",
     points: [
       "Developing main brand guidelines, in-remote brand development and fundational syle guidelines.",
@@ -131,8 +136,8 @@ const experiences = [
   {
     title: "Allow Audio",
     company_name: "Designer",
-    icon: tesla,
-    iconBg: "#E6DEDD",
+    icon: allow,
+    iconBg: "black",
     date: "Jan 2020 - Feb 2023",
     points: [
       "Developing the foundational stone of the brandquest"
@@ -141,8 +146,8 @@ const experiences = [
   {
     title: "Infinix Holding",
     company_name: "Designer + Web Developer",
-    icon: shopify,
-    iconBg: "#383E56",
+    icon: infinix,
+    iconBg: "black",
     date: "Feb 2022 - Today",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
@@ -152,8 +157,8 @@ const experiences = [
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
+    title: "Henry Bootcamp | Full stack Developer",
+    company_name: "Full-Time Bootcamp, +900hr completed",
     icon: meta,
     iconBg: "#E6DEDD",
     date: "Jan 2023 - Present",
@@ -212,7 +217,7 @@ const projects = [
         color: "white-100",
       },
     ],
-    image: carrent,
+    image: infinixw,
     source_code_link: "https://github.com/",
   },
   {
@@ -233,7 +238,7 @@ const projects = [
         color: "white-100",
       },
     ],
-    image: jobit,
+    image: lianw,
     source_code_link: "https://github.com/",
   },
   {

@@ -19,8 +19,8 @@ const Hero = () => {
             Hi, I'm <span id= 'spin' className='text-[#915EFF]'>Crystal</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I develop 3D visuals, user <br className='sm:block hidden' />
-            interfaces and web applications with MERN/PERN techniques.
+            I develope 3D Design, VFX production.  <br className='sm:block hidden' />
+            Building user interfaces and web applications with MERN/PERN techniques.
           </p>
         </div>
       </div>

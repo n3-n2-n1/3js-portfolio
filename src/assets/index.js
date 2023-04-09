@@ -25,7 +25,11 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
-
+import lian from "./company/lian.png"
+import infinix from "./company/infinix.png"
+import allow from "./company/allow.png"
+import lianw from "./lianw.png"
+import infinixw from './infinixw.png';
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
@@ -59,4 +63,9 @@ export {
   carrent,
   jobit,
   tripguide,
+  lian,
+  allow,
+  infinix,
+  infinixw,
+  lianw
 };

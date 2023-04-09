@@ -47,7 +47,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[21px] max-w-6xl leading-[30px] '
       >
-       I'm a skilled software developer with extensive experience in TypeScript and JavaScript. 
+       I'm a skilled software developer with extensive experience in React/Redux and JavaScript. 
        My expertise lies in frameworks such as React, Node.js, and Three.js. 
        I'm also well-versed in project management tools like Jira and Atlassian, knowing the facts at Scrum methodology.
       </motion.p>
