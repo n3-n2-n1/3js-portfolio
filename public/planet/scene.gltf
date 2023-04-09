@@ -363,7 +363,7 @@
     {
       "doubleSided": true,
       "emissiveTexture": {
-        "index": 0
+        "index": 4
       },
       "extensions": {
         "KHR_materials_unlit": {}

@@ -24,13 +24,14 @@ const ProjectCard = ({
           scale: 1,
           speed: 450,
         }}
-        className='bg-black border p-5 rounded-2xl sm:w-[360px] w-full'
+        className='bg-black border p-5 rounded-2xl sm:w-[360px] w-full cursor-help'
       >
-        <div className='relative w-full h-[230px]'>
+        <div className='relative w-full h-[230px] ' 
+        onClick={() => window.open(source_code_link, "_blank")}>
           <img
             src={image}
             alt='project_image'
-            className='w-full h-full object-cover rounded-2xl'
+            className='w-full h-full object-cover rounded-2xl caret-transparent'
           />
 
           <div className='absolute inset-0 flex justify-end m-3 card-img_hover'>
@@ -52,16 +53,6 @@ const ProjectCard = ({
               #{tag.name}
             </p>
           ))}
-          <div
-              onClick={() => window.open(source_code_link, "_blank")}
-              className=' w-6 h-6 rounded-full flex justify-center items-center cursor-pointer pr-px'
-            >
-              <img
-                src={github}
-                alt='source code'
-                className='object-contain'
-              />
-            </div>
         </div>
       </Tilt>
     </motion.div>
@@ -72,7 +63,7 @@ const Works = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <h2 className={`${styles.sectionHeadText}`}>Projects</h2>
+        <h2 className={`${styles.sectionHeadText}`}> Field-projects</h2>
       </motion.div>
 
       <div className='w-full flex'>
@@ -82,7 +73,7 @@ const Works = () => {
         >
           Following projects showcases my skills and experience through
           real-world examples of my work. Each project is briefly described with
-          links to code repositories and live demos in it. It reflects my
+          links to code repositories and live demos in it. Reflects my
           ability to solve complex problems, work with different technologies,
           and manage projects effectively.
         </motion.p>

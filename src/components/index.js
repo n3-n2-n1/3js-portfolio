@@ -9,6 +9,8 @@ import Feedbacks from "./Feedbacks";
 import Contact from "./Contact";
 import CanvasLoader from "./Loader";
 import Marquee from "./Marquee";
+import TopBtn from './TopBtn';
+import Footer from './Footer';
 
 
 export {
@@ -25,5 +27,7 @@ export {
   BallCanvas, 
   ComputersCanvas, 
   StarsCanvas,
-  Marquee
+  Marquee,
+  TopBtn,
+  Footer
 };
