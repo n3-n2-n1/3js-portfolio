@@ -24,7 +24,7 @@ const ProjectCard = ({
           scale: 1,
           speed: 450,
         }}
-        className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full'
+        className='bg-black border p-5 rounded-2xl sm:w-[360px] w-full'
       >
         <div className='relative w-full h-[230px]'>
           <img
@@ -34,16 +34,7 @@ const ProjectCard = ({
           />
 
           <div className='absolute inset-0 flex justify-end m-3 card-img_hover'>
-            <div
-              onClick={() => window.open(source_code_link, "_blank")}
-              className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
-            >
-              <img
-                src={github}
-                alt='source code'
-                className='w-1/2 h-1/2 object-contain'
-              />
-            </div>
+            
           </div>
         </div>
 
@@ -61,6 +52,16 @@ const ProjectCard = ({
               #{tag.name}
             </p>
           ))}
+          <div
+              onClick={() => window.open(source_code_link, "_blank")}
+              className=' w-6 h-6 rounded-full flex justify-center items-center cursor-pointer pr-px'
+            >
+              <img
+                src={github}
+                alt='source code'
+                className='object-contain'
+              />
+            </div>
         </div>
       </Tilt>
     </motion.div>
@@ -71,8 +72,7 @@ const Works = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={`${styles.sectionSubText} `}>My work</p>
-        <h2 className={`${styles.sectionHeadText}`}>Projects.</h2>
+        <h2 className={`${styles.sectionHeadText}`}>Projects</h2>
       </motion.div>
 
       <div className='w-full flex'>

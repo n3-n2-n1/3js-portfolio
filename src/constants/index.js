@@ -116,37 +116,34 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
+    title: "Lian Productions Ghost Production Site",
+    company_name: "Lian Productions",
     icon: starbucks,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "August 2019 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developing main brand guidelines, in-remote brand development and fundational syle guidelines.",
+      "Collaborating with a marketing team to ensure accurately SEO and related visual assets",
+      "Implementing cross-compatibility designer-client platforms as Figma and Google Tools",
+      "Participating in content assets and scheduling calendars related to.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
+    title: "Allow Audio",
+    company_name: "Designer",
     icon: tesla,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Jan 2020 - Feb 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developing the foundational stone of the brandquest"
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
+    title: "Infinix Holding",
+    company_name: "Designer + Web Developer",
     icon: shopify,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Feb 2022 - Today",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -198,63 +195,63 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Infinix | Quality Assurance",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "HTLM5 web based page quirugicaly prepared with social engineering and SEO improvements of our Quality Assurance side.",
     tags: [
       {
-        name: "react",
-        color: "blue-text-gradient",
+        name: "HTML5",
+        color: "white-100",
       },
       {
-        name: "mongodb",
-        color: "green-text-gradient",
+        name: "JavaScript",
+        color: "white-100",
       },
       {
-        name: "tailwind",
-        color: "pink-text-gradient",
+        name: "Bootstrap",
+        color: "white-100",
       },
     ],
     image: carrent,
     source_code_link: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "Lian Productions | Ghost Productions",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Landing page react-based of one of the top production services at Europe. Frontend improvations with Tailwind and React Drei.",
     tags: [
       {
         name: "react",
-        color: "blue-text-gradient",
+        color: "white-100",
       },
       {
         name: "restapi",
-        color: "green-text-gradient",
+        color: "white-100t",
       },
       {
         name: "scss",
-        color: "pink-text-gradient",
+        color: "white-100",
       },
     ],
     image: jobit,
     source_code_link: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "Crystal | Main Projects",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Along years, developing different projects as performer/curator for artwork. With the underground lot of art development.",
     tags: [
       {
         name: "nextjs",
-        color: "blue-text-gradient",
+        color: "white-100",
       },
       {
         name: "supabase",
-        color: "green-text-gradient",
+        color: "white-100t",
       },
       {
         name: "css",
-        color: "pink-text-gradient",
+        color: "white-100",
       },
     ],
     image: tripguide,
