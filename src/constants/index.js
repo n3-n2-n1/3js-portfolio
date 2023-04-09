@@ -268,7 +268,7 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Infinix | Quality Assurance",
+    name: "Infinix | Holding Group",
     description:
       "HTLM5 web based page quirugicaly prepared with social engineering and SEO improvements of our Quality Assurance side.",
     tags: [
