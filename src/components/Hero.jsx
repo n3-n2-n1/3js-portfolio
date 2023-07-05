@@ -16,11 +16,11 @@ const Hero = () => {
 
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi, I'm <span id= 'spin' className='text-[#915EFF]'>Crystal</span>
+            Hi, I'm <span id= 'spin' className='text-black bg-white'>Thomas</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I develope 3D Design, VFX production.  <br className='sm:block hidden' />
-            Building user interfaces and web applications with MERN/PERN techniques.
+            Developing the future, building it.<br className='sm:block hidden' />
+            Coding interfaces and web applications with<span className="text-black bg-white"> MERN/PERN </span>techniques.
           </p>
         </div>
       </div>

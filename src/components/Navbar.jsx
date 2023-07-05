@@ -43,8 +43,8 @@ const Navbar = () => {
           }}
         >
           <p className='text-white text-[18px] font-bold cursor-pointer flex '>
-            Crystal &nbsp;
-            <span className='sm:block hidden'> | Art Director + Developer</span>
+            Thomas &nbsp;
+            <span className='sm:block hidden'> | FullStack Developer</span>
           </p>
         </Link>
 

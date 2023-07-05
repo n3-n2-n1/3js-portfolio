@@ -33,6 +33,8 @@ import {
   coder,
   academic,
   university,
+  infinixqa,
+  infinixsoft,
 } from "../assets";
 
 export const navLinks = [
@@ -125,52 +127,43 @@ const technologies = [
 ];
 
 const experiences = [
-  {
-    title: "Lian Productions | Ghost Production Service",
-    company_name: "Lian Productions",
-    icon: lian,
-    iconBg: "black",
-    date: "August 2019 - Present",
-    points: [
-      "Spearheaded the development and implementation of a comprehensive brand identity and style guidelines for a discographic brand, resulting in a cohesive and impactful brand presence",
-      "Directed a team of talented designers to produce visually captivating projects that exceed client expectations.",
-      "Collaborated with a marketing team to ensure that SEO and visually appealing assets are incorporated seamlessly into projects",
-      "Contributed to content assets and scheduling calendars to ensure timely and successful project completion.",
-    ],
-    web: "https://www.lianproductions.com",
-  },
-  {
-    title:"Allow Audio",
-    company_name: "Designer",
-    icon: allow,
-    iconBg: "black",
-    date: "Jan 2020 - Feb 2023",
-    points: [
-      "Developed and implemented a comprehensive brand identity and style guidelines for a discographic brand, resulting in a cohesive and impactful brand presence.",
-      "Created visually stunning artwork and promotional materials that effectively communicate the brand's unique voice and identity.",
-      "Established and maintained consistent branding guidelines across all channels, including social media, website, and product packaging.",
-      "Utilized cross-compatible designer-client platforms such as Figma and Google Tools to streamline workflow and enhance communication.",
-    ],
-    web: "https://www.allowaudio.bandcamp.com"
-  },
+
   {
     title: "Infinix Holding",
     company_name: "Designer + Web Developer",
     icon: infinix,
     iconBg: "black",
-    date: "Feb 2022 - Today",
+    date: "Feb 2021 - July 2023",
     points: [
-      "Designed and developed a dynamic website using React, HTML5, and CSS to provide a cutting-edge online experience.",
-      "Created an intuitive and user-friendly interface that engages potential customers and drives conversions.",
-      "Established and maintained consistent branding guidelines to promote brand recognition and loyalty.",
-      "Contributed to the successful launch of multiple products and campaigns, driving significant revenue growth for the brand.",
+
+      "HTML5, CSS and Bootstrap for the front experience.",
+      "Created an intuitive and user-friendly interface.",
+      "Established a system in JIRA to work on every task based on requirements.",
+      "Contributed to establish a better face to the enterprise along with SEO and KPI's implementation.",
     ],
     web: "https://www.infinixholdinggroup.com"
   },
  
+ 
+  {
+    title: "Infinix Soft",
+    company_name: "React Developer",
+    icon: infinix,
+    iconBg: "black",
+    date: "Jun 2021 - July 2023",
+    points: [
+      "Managed migration from HTML5 to React to provide a betterexperience.",
+      "Created an intuitive and user-friendly interface.",
+      "Developing React WebApps for clients meeting specified requirements.",
+      "Established a system in JIRA to work on every task based on requirements.",
+      "Contributed to code cleaning, bettering pactices and engage with new clients.",
+    ],
+    web: "https://www.infinixsoft.com"
+  },
+ 
   {
     title: "Qualifications | Overview",
-    company_name: "I hold a distinguished academic record, including a certificate of First Degree (English) from Cambridge University, as well as certifications in Python, testing, and design, and a degree in React/JavaScript.",
+    company_name: "I hold a distinguished academic record, including a certificate of First Degree (C1) (English) from Cambridge University, as well as certifications in Python, testing, and design, and a degree in React/JavaScript.",
     icon: academic,
     iconBg: "#f0f0f0",
     date: "Until nowadays!",
@@ -289,9 +282,9 @@ const projects = [
     source_code_link: "https://infinixholdinggroup.com/",
   },
   {
-    name: "Lian Productions ",
+    name: "Infinix | Soft",
     description:
-      "Landing page react-based of one of the top production services at Europe. Frontend improvations with Tailwind and React Drei.",
+      "Landing page react-based of one of the top production service. Frontend improvations with React and UX/UI experience",
     tags: [
       {
         name: "react",
@@ -306,29 +299,30 @@ const projects = [
         color: "white-100",
       },
     ],
-    image: lianw,
-    source_code_link: "https://lianproductions.com",
+    image: infinixsoft,
+    source_code_link: "https://infinixsoft.com",
   },
+ 
   {
-    name: "Crystal | Main Projects",
+    name: "Infinix | Quality Assurance",
     description:
-      "Along years, developing different projects as performer/curator for artwork. With the underground of art & development.",
+      "Website developed HTML, CSS based with Bootstrap 5",
     tags: [
       {
-        name: "maxMSP",
+        name: "bootstrap3",
         color: "white-100",
       },
       {
-        name: "touchDesigner",
+        name: "java",
         color: "white-100t",
       },
       {
-        name: "cinema4D",
+        name: "CSS",
         color: "white-100",
       },
     ],
-    image: crystalw,
-    source_code_link: "#home",
+    image: infinixqa,
+    source_code_link: "https://infinixqa.com",
   },
 ];
 

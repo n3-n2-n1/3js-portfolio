@@ -36,6 +36,8 @@ import crystalw from "./crystalw.png";
 import coder from "./coder.png";
 import henry from "./henry.png";
 import academic from "./academic.svg";
+import infinixqa from "./infinixqa.png";
+import infinixsoft from "./infinixsoft.png"
 
 
 
@@ -77,5 +79,7 @@ export {
   coder,
   henry,
   academic,
-  university
+  university,
+  infinixqa,
+  infinixsoft
 };
