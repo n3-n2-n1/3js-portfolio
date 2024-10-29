@@ -54,275 +54,172 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
-    icon: web,
+    title: "Desarrollo Web y Arquitectura de Software",
+    description: "Diseñamos y desarrollamos plataformas web con arquitecturas avanzadas, seguras y escalables, optimizadas para el crecimiento del negocio.",
+    icon: webArchitecture,
   },
   {
-    title: "React Native Developer",
-    icon: mobile,
+    title: "Desarrollo Mobile (iOS/Android)",
+    description: "Aplicaciones móviles de alto rendimiento para plataformas nativas y multiplataforma, utilizando tecnologías como React Native y Flutter.",
+    icon: mobileDevelopment,
   },
   {
-    title: "Backend Developer",
-    icon: backend,
+    title: "Backend y Microservicios",
+    description: "Soluciones backend escalables y basadas en microservicios con APIs RESTful para operaciones confiables y eficientes.",
+    icon: backendMicroservices,
   },
   {
-    title: "Content Creator",
-    icon: creator,
+    title: "Inteligencia Artificial y Machine Learning",
+    description: "Implementación de IA avanzada y sistemas de aprendizaje automático, desde NLP hasta recomendaciones personalizadas.",
+    icon: aiSolutions,
+  },
+  {
+    title: "Blockchain y Smart Contracts",
+    description: "Desarrollo en blockchain, creación de contratos inteligentes y aplicaciones descentralizadas, adaptadas a las necesidades de la nueva economía digital.",
+    icon: blockchainTech,
   },
 ];
 
 const technologies = [
   {
-    name: "HTML 5",
-    icon: html,
+    name: "Python",
+    icon: python,
   },
   {
-    name: "CSS 3",
-    icon: css,
-  },
-  {
-    name: "JavaScript",
-    icon: javascript,
-  },
-  {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
-    name: "React JS",
-    icon: reactjs,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
-  {
-    name: "Node JS",
+    name: "Node.js",
     icon: nodejs,
   },
   {
-    name: "MongoDB",
-    icon: mongodb,
+    name: "React y React Native",
+    icon: react,
   },
   {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
-    name: "git",
-    icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
+    name: "Docker",
     icon: docker,
+  },
+  {
+    name: "AWS y Google Cloud",
+    icon: cloud,
+  },
+  {
+    name: "MongoDB y PostgreSQL",
+    icon: database,
+  },
+  {
+    name: "Solidity (Ethereum)",
+    icon: solidity,
+  },
+  {
+    name: "Kubernetes",
+    icon: kubernetes,
   },
 ];
 
 const experiences = [
-
   {
-    title: "Infinix Holding",
-    company_name: "Designer + Web Developer",
-    icon: infinix,
-    iconBg: "black",
-    date: "Feb 2021 - July 2023",
+    title: "Decrypto.la",
+    company_name: "Soluciones Full Stack y Mobile",
+    icon: decrypto,
+    iconBg: "#3b3b3b",
+    date: "Mar 2021 - Present",
     points: [
-
-      "HTML5, CSS and Bootstrap for the front experience.",
-      "Created an intuitive and user-friendly interface.",
-      "Established a system in JIRA to work on every task based on requirements.",
-      "Contributed to establish a better face to the enterprise along with SEO and KPI's implementation.",
+      "Desarrollo de aplicaciones móviles y plataformas full stack para experiencias digitales integrales.",
+      "Implementación de soluciones en React Native para aplicaciones móviles intuitivas y optimizadas.",
+      "Arquitectura y desarrollo de soluciones web full stack, garantizando seguridad, escalabilidad y alta disponibilidad.",
     ],
-    web: "https://www.infinixholdinggroup.com"
-  },
- 
- 
-  {
-    title: "Infinix Soft",
-    company_name: "React Developer",
-    icon: infinix,
-    iconBg: "black",
-    date: "Jun 2021 - July 2023",
-    points: [
-      "Managed migration from HTML5 to React to provide a betterexperience.",
-      "Created an intuitive and user-friendly interface.",
-      "Developing React WebApps for clients meeting specified requirements.",
-      "Established a system in JIRA to work on every task based on requirements.",
-      "Contributed to code cleaning, bettering pactices and engage with new clients.",
-    ],
-    web: "https://www.infinixsoft.com"
-  },
- 
-  {
-    title: "Qualifications | Overview",
-    company_name: "I hold a distinguished academic record, including a certificate of First Degree (C1) (English) from Cambridge University, as well as certifications in Python, testing, and design, and a degree in React/JavaScript.",
-    icon: academic,
-    iconBg: "#f0f0f0",
-    date: "Until nowadays!",
-    points: [
-      
-    ],
-    web:"#home"
+    web: "https://decrypto.la",
   },
   {
-    title: "Henry Bootcamp | Full stack Developer",
-    company_name: "Full-Time Bootcamp, +900hr completed",
-    icon: henry,
-    iconBg: "#FFFF00",
-    date: "May 2022 - December 2022",
+    title: "Heippi",
+    company_name: "Consultoría en Arquitectura de Software",
+    icon: heippi,
+    iconBg: "#1f1f1f",
+    date: "Ene 2022 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Consultoría y diseño de arquitecturas robustas y eficientes para el crecimiento escalable.",
+      "Implementación de arquitecturas modulares que facilitan la integración de nuevos servicios y tecnologías.",
+      "Optimización de infraestructura para asegurar un rendimiento superior en todos los niveles.",
     ],
-    web:""
-
-  },  {
-    title: "CoderHouse | Python Certification",
-    company_name: "Intermediate certification for Python with use of Django, mySQL, Postgres and SCSS",
-    icon: coder,
-    iconBg: "#E8FF3C",
-    date: "Jan 2023 - Present",
-    points: [
-      "Completed certification in Python, mastering various technologies including Mongo, Django, Postgres, and MySQL to develop real-world applications.",
-      "Utilized version control systems such as Git to manage and collaborate on code with ease.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-    web:"#home"
-  },  {
-    title: "CoderHouse | Testing QA Manual",
-    company_name: "Intermediate certification for Testing Quality Assurance with PostMan/ThunderClient",
-    icon: coder,
-    iconBg: "#E8FF3C",
-    date: "Jun 2022 - Sept 2022",
-    points: [
-      "Participated in group projects to test real-world applications and gain practical experience.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Contributed to the creation and maintenance of testing documentation and schedules to ensure high-quality and reliable applications..",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-    web:"#home"
-
+    web: "https://heippi.com",
   },
   {
-    title: "University of Cambridge | First I Certification",
-    company_name: "Advanced Certification from Cambridge's University",
-    icon: university,
-    iconBg: "#EF4B5A",
-    date: "Jun 2006 - Sept 2013",
+    title: "Oxygen Token",
+    company_name: "Desarrollo Blockchain y Tokenización",
+    icon: oxygenToken,
+    iconBg: "#0a0a0a",
+    date: "Ago 2023 - Present",
     points: [
-      "Achieved Cambridge University's certificate, demonstrating exceptional oral and written communication skills in English.",
-      "Successfully completed rigorous coursework and assessments, earning a distinction for outstanding performance.",
-      "Utilized advanced grammar, vocabulary, and syntax to create polished and professional written work.",
-      'Continuously sought out opportunities to refine language skills, including through immersion experiences and independent study.'
-
+      "Creación del token 'SoyCarbonoNeutral', con integración blockchain y contratos inteligentes para compensación de huella de carbono.",
+      "Implementación de contratos inteligentes seguros y eficientes en Solidity, dentro de la red Ethereum.",
+      "Desarrollo de soluciones descentralizadas alineadas con los objetivos de sostenibilidad y responsabilidad ambiental.",
     ],
-    web:"#home"
-
+    web: "https://oxygentoken.io",
   },
 ];
 
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
+      "Gracias a Kinetica, implementamos soluciones de arquitectura innovadoras que impulsaron nuestro crecimiento de forma significativa.",
+    name: "Martín Pérez",
     designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    company: "Heippi",
+    image: "https://randomuser.me/api/portraits/men/32.jpg",
+  },
+  {
+    testimonial:
+      "El equipo de Kinetica transformó nuestras ideas en una plataforma mobile potente y fácil de usar. Nos apoyaron en cada paso del desarrollo.",
+    name: "Lucía Romero",
+    designation: "COO",
+    company: "Decrypto.la",
+    image: "https://randomuser.me/api/portraits/women/45.jpg",
+  },
+  {
+    testimonial:
+      "Su experiencia en blockchain ha sido clave para llevar a cabo el proyecto Oxygen Token con el impacto y la seguridad que necesitábamos.",
+    name: "Carlos Álvarez",
+    designation: "Fundador",
+    company: "Oxygen Token",
+    image: "https://randomuser.me/api/portraits/men/52.jpg",
   },
 ];
 
 const projects = [
   {
-    name: "Infinix | Holding Group",
+    name: "Decrypto | Plataforma Full Stack",
     description:
-      "HTLM5 web based page quirugicaly prepared with social engineering and SEO improvements of our Quality Assurance side.",
+      "Desarrollo de una plataforma full stack en React Native con backend escalable para soluciones de intercambio digital.",
     tags: [
-      {
-        name: "HTML5",
-        color: "white-100",
-      },
-      {
-        name: "javaScript",
-        color: "white-100",
-      },
-      {
-        name: "bootstrap",
-        color: "white-100",
-      },
+      { name: "React Native", color: "white-100" },
+      { name: "Node.js", color: "white-100" },
+      { name: "MongoDB", color: "white-100" },
     ],
-    image: infinixw,
-    source_code_link: "https://infinixholdinggroup.com/",
+    image: decryptoProject,
+    source_code_link: "https://decrypto.la",
   },
   {
-    name: "Infinix | Soft",
+    name: "Heippi | Soluciones de Arquitectura",
     description:
-      "Landing page react-based of one of the top production service. Frontend improvations with React and UX/UI experience",
+      "Implementación de arquitectura de software modular y escalable para optimizar rendimiento y costos en infraestructura.",
     tags: [
-      {
-        name: "react",
-        color: "white-100",
-      },
-      {
-        name: "restapi",
-        color: "white-100t",
-      },
-      {
-        name: "scss",
-        color: "white-100",
-      },
+      { name: "AWS", color: "white-100" },
+      { name: "Docker", color: "white-100" },
+      { name: "Microservicios", color: "white-100" },
     ],
-    image: infinixsoft,
-    source_code_link: "https://infinixsoft.com",
+    image: heippiProject,
+    source_code_link: "https://heippi.com",
   },
- 
   {
-    name: "Infinix | Quality Assurance",
+    name: "Oxygen Token | SoyCarbonoNeutral",
     description:
-      "Website developed HTML, CSS based with Bootstrap 5",
+      "Creación y despliegue del token de sostenibilidad 'SoyCarbonoNeutral' en la blockchain de Ethereum.",
     tags: [
-      {
-        name: "bootstrap3",
-        color: "white-100",
-      },
-      {
-        name: "java",
-        color: "white-100t",
-      },
-      {
-        name: "CSS",
-        color: "white-100",
-      },
+      { name: "Blockchain", color: "white-100" },
+      { name: "Solidity", color: "white-100" },
+      { name: "Ethereum", color: "white-100" },
     ],
-    image: infinixqa,
-    source_code_link: "https://infinixqa.com",
+    image: oxygenTokenProject,
+    source_code_link: "https://oxygentoken.io",
   },
 ];
 
